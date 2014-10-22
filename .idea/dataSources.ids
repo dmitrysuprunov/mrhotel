@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails mrhotel: development" uuid="d1ca9a3e-ba74-4087-9e69-375bd9f14153">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails mrhotel: test" uuid="3c76128d-c805-4bec-a58e-fd18800e2d1e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails mrhotel: production" uuid="30ab312d-1f8c-4f90-acbd-d38cb96d5366">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
