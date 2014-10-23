@@ -1,0 +1,9 @@
+%header
+  %nav.navbar.navbar-default{:role => "navigation"}
+    %ul.nav.navbar-nav
+      = menu_item_by_controller('Dashboard', dashboards_path, 'dashboards'  )
+      = menu_item('Bookings', bookings_path, 'bookings' )
+      = menu_item('Inventory', inventories_path, 'inventories' )
+      = menu_item_by_controller('Profile', '#', 'x' )
+      = menu_item_by_controller('Settings', '#', 'y' )
+%hr

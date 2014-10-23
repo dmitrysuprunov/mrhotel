@@ -1,0 +1,17 @@
+%h3 see what we have created
+
+= link_to 'Edit', edit_customer_path(@customer)
+
+
+
+.container
+  .row
+    %dl
+      %dt Name
+      %dd= @customer.name
+      %dt Email
+      %dd= @customer.email
+      %dt Check-In Date
+      %dd= @customer.checkin_date
+      %dt Check-Out Date
+      %dd= @customer.checkout_date

@@ -1,0 +1,12 @@
+%h3 Filter
+= link_to 'Customers', customers_path
+
+= display_table({ :collection => @bookings,
+                  :class => 'table table-hover',
+                  :head       => {:columns => ['Payment ID', 'Date', 'Name', 'Amount Paid', '# of Nights', 'Status'],
+                                  :column_classes => %w(),
+                                  :sort_columns => []},
+                  :body       => { :partial => 'bookings/booking' },
+                  :paginate   => { :top => false, :bottom => false },
+                  :empty_collection_text => 'No Bookings' })
+

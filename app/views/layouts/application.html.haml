@@ -1,0 +1,11 @@
+!!!
+%html
+  = render 'layouts/partials/head'
+  %head
+  %body
+    .wrapper
+      = render 'layouts/partials/header'
+      .container
+        = bootstrap_flash
+      = yield
+    = render 'layouts/partials/footer'

@@ -1,0 +1,18 @@
+.row
+  = simple_form_for([@customer], :as => :customer ) do |f|
+    .col-md-9
+      .row
+        .col-md-4
+          = f.input :name
+      .row
+        .col-md-4
+          = f.input :email
+      .row
+        .col-md-4
+          = f.input :checkin_date
+      .row
+        .col-md-4
+          = f.input :checkout_date
+      .row
+        .col-md-3
+          = f.button :submit, :class => 'btn btn-large btn-primary btn-create'
